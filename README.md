@@ -15,7 +15,7 @@
 *If you don't have it already: [Get Firefox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release)*
 
 0) Create a [backup profile](https://github.com/yokoffing/Betterfox/wiki/Backup).
-1) Download the user.js file [here](https://raw.githubusercontent.com/Rockstar234/Betterfox/main/user.js) (Right click > `Save Link As…`).
+1) Download the user.js file [here](https://raw.githubusercontent.com/prettyleaf/Betterfox/main/user.js) (Right click > `Save Link As…`).
 2) Review [Common Overrides](https://github.com/yokoffing/Betterfox/wiki/Common-Overrides) and make any necessary changes.
    * See also [Optional Hardening](https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening) for other recommendations.
 3) Open Firefox. In the URL bar, type `about:profiles` and press `Enter`.
