@@ -86,5 +86,5 @@ If you like the project, leave a :star: (top right) and become a [stargazer](htt
 * Many thanks to the 2021 [Ghostery](https://github.com/ghostery) team for testing Betterfox at scale in its early days.
 
 <div align='center'>
-  <a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19653&s=1' border='0' alt='Free Website Counter'></a><br / >
+  <a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=59870&s=1' border='0' alt='Free Website Counter'></a><br / >
 since 23 July 2022</div>
