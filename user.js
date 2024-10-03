@@ -8,9 +8,9 @@
  */
 
 /****************************************************************************
- * Betterfox. Created by yokoffing and modified by pr3ttyleaf               *
+ * Betterfox. Created by yokoffing and modified by prettyleaf               *
  * "Ad meliora"                                                             *
- * version: 129                                                             *
+ * version: 130                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
 ****************************************************************************/
 
@@ -52,9 +52,7 @@ user_pref("network.predictor.enabled", false);
 user_pref("network.predictor.enable-prefetch", false);
 
 /** EXPERIMENTAL ***/
-user_pref("layout.css.grid-template-masonry-value.enabled", true);
 user_pref("dom.enable_web_task_scheduling", true);
-user_pref("dom.security.sanitizer.enabled", true);
 
 /****************************************************************************
  * SECTION: SECUREFOX                                                       *
@@ -105,7 +103,6 @@ user_pref("network.IDN_show_punycode", true);
 user_pref("dom.security.https_first", true);
 
 /** PASSWORDS ***/
-user_pref("signon.rememberSignons", true);
 user_pref("signon.formlessCapture.enabled", false);
 user_pref("signon.privateBrowsingCapture.enabled", false);
 user_pref("network.auth.subresource-http-auth-allow", 1);
@@ -114,17 +111,15 @@ user_pref("editor.truncate_user_pastes", false);
 /** MIXED CONTENT + CROSS-SITE ***/
 user_pref("security.mixed_content.block_display_content", true);
 user_pref("pdfjs.enableScripting", false);
-user_pref("extensions.postDownloadThirdPartyPrompt", false);
+
+/** EXTENSIONS ***/
+user_pref("extensions.enabledScopes", 5);
 
 /** HEADERS / REFERERS ***/
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 
 /** CONTAINERS ***/
 user_pref("privacy.userContext.ui.enabled", true);
-
-/** WEBRTC ***/
-user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
-user_pref("media.peerconnection.ice.default_address_only", true);
 
 /** SAFE BROWSING ***/
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
@@ -209,9 +204,11 @@ user_pref("full-screen-api.warning.timeout", 0);
 user_pref("browser.urlbar.suggest.calculator", true);
 user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.urlbar.trending.featureGate", false);
+user_pref("dom.text_fragments.enabled", true);
 
 /** NEW TAB PAGE ***/
 user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
+user_pref("browser.newtabpage.activity-stream.showWeather", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 
 /** POCKET ***/
@@ -246,8 +243,11 @@ user_pref("full-screen-api.transition.timeout", 0);
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // for more info
-user_pref("browser.newtabpage.activity-stream.showWeather", true);
-user_pref("browser.newtabpage.activity-stream.system.showWeather", true);
+user_pref("browser.newtabpage.activity-stream.showWeather", false);
+user_pref("browser.newtabpage.activity-stream.system.showWeather", false);
+//user_pref("signon.rememberSignons", true); // UNCOMMENT IF YOU ARE NOT USING BITWARDEN OR ETC
+user_pref("ui.key.menuAccessKeyFocuses", false);
+user_pref("browser.tabs.warnOnClose", true);
 
 /****************************************************************************
  * END: MY OVERRIDES                                                        *
