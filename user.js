@@ -247,6 +247,7 @@ user_pref("browser.newtabpage.activity-stream.system.showWeather", false);
 //user_pref("signon.rememberSignons", true); // UNCOMMENT IF YOU ARE NOT USING BITWARDEN OR ETC
 user_pref("ui.key.menuAccessKeyFocuses", false);
 user_pref("browser.tabs.warnOnClose", true);
+user_pref("browser.tabs.hoverPreview.enabled", false);
 
 /****************************************************************************
  * END: MY OVERRIDES                                                        *
