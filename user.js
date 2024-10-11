@@ -10,8 +10,9 @@
 /****************************************************************************
  * Betterfox. Created by yokoffing and modified by prettyleaf               *
  * "Ad meliora"                                                             *
- * version: 131-p                                                           *
+ * version: 131                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
+ * url: https://github.com/TeamDominant/Betterfox                           *
 ****************************************************************************/
 
 /****************************************************************************
