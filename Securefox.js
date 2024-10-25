@@ -38,6 +38,8 @@ user_pref("browser.contentblocking.category", "strict");
     //user_pref("privacy.annotate_channels.strict_list.pbmode.enabled", true); // DEFAULT
 //user_pref("privacy.fingerprintingProtection", true); // [FF114+] [ETP FF119+] enabled with "Strict"
     //user_pref("privacy.fingerprintingProtection.pbmode", true); // DEFAULT
+//user_pref("privacy.bounceTrackingProtection.mode", 1); // [FF131+] [ETP FF133+]
+// [1] https://searchfox.org/mozilla-central/source/toolkit/components/antitracking/bouncetrackingprotection/nsIBounceTrackingProtection.idl#11-23
 
 // PREF: query stripping
 // Currently uses a small list [1]
