@@ -82,12 +82,6 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 // PREF: add compact mode back to options
 user_pref("browser.compactmode.show", true);
 
-// PREF: remove focus indicator for links
-// [1] https://www.askvg.com/firefox-tip-restore-classic-dotted-outline-focus-indicator-for-links/
-user_pref("browser.display.focus_ring_on_anything", true); 
-user_pref("browser.display.focus_ring_style", 0);
-user_pref("browser.display.focus_ring_width", 0);
-
 // PREF: preferred color scheme for websites
 // [SETTING] General>Language and Appearance>Website appearance
 // By default, color scheme matches the theme of your browser toolbar (3).
@@ -172,7 +166,6 @@ user_pref("full-screen-api.warning.timeout", 0); // default=3000
 //user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
 //user_pref("gfx.font_rendering.cleartype_params.cleartype_level", 100);
 //user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_for_families", "");
-//user_pref("gfx.font_rendering.cleartype_params.force_gdi_classic_max_size", 6);
 //user_pref("gfx.font_rendering.directwrite.use_gdi_table_loading", false);
 // Some users find these helpful:
     //user_pref("gfx.font_rendering.cleartype_params.gamma", 1750);
