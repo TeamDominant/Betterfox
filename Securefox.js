@@ -3,7 +3,7 @@
  * Securefox                                                                *
  * "Natura non contristatur"                                                *     
  * priority: provide sensible security and privacy                          *
- * version: 131                                                             *
+ * version: 133                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
  * credit: Most prefs are reproduced and adapted from the arkenfox project  *
  * credit urL: https://github.com/arkenfox/user.js                          *
@@ -472,6 +472,9 @@ user_pref("browser.sessionstore.interval", 60000); // 1 minute; default=15000 (1
    //user_pref("privacy.cpd.passwords", false);
    //user_pref("privacy.cpd.siteSettings", false);
    //user_pref("privacy.clearHistory.siteSettings", false);
+
+// PREF: purge session icon in Private Browsing windows
+user_pref("browser.privatebrowsing.resetPBM.enabled", true);
 
 /******************************************************************************
  * SECTION: SHUTDOWN & SANITIZING                                             *
