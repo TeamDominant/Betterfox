@@ -10,7 +10,7 @@
 /****************************************************************************
  * Betterfox. Created by yokoffing and modified by prettyleaf               *
  * "Ad meliora"                                                             *
- * version: 131                                                             *
+ * version: 133                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
 ****************************************************************************/
 
@@ -26,7 +26,7 @@ user_pref("gfx.canvas.accelerated.cache-size", 512);
 user_pref("gfx.content.skia-font-cache-size", 20);
 
 /** DISK CACHE ***/
-user_pref("browser.cache.jsbc_compression_level", 3);
+user_pref("browser.cache.disk.enable", true);
 
 /** MEDIA CACHE ***/
 user_pref("media.memory_cache_max_size", 65536);
@@ -76,11 +76,13 @@ user_pref("security.pki.crlite_mode", 2);
 user_pref("security.ssl.treat_unsafe_negotiation_as_broken", true);
 user_pref("browser.xul.error_pages.expert_bad_cert", true);
 user_pref("security.tls.enable_0rtt_data", false);
+
 /** DISK AVOIDANCE ***/
 user_pref("browser.privatebrowsing.forceMediaMemoryCache", true);
 user_pref("browser.sessionstore.interval", 60000);
 
 /** SHUTDOWN & SANITIZING ***/
+user_pref("browser.privatebrowsing.resetPBM.enabled", true);
 user_pref("privacy.history.custom", true);
 
 /** SEARCH / URL BAR ***/
@@ -124,8 +126,8 @@ user_pref("browser.safebrowsing.downloads.remote.enabled", false);
 /** MOZILLA ***/
 user_pref("permissions.default.desktop-notification", 2);
 user_pref("permissions.default.geo", 2);
+user_pref("browser.search.update", false);
 user_pref("permissions.manager.defaultsUrl", "");
-user_pref("webchannel.allowObject.urlWhitelist", "");
 
 /** TELEMETRY ***/
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
@@ -153,7 +155,6 @@ user_pref("app.normandy.api_url", "");
 /** CRASH REPORTS ***/
 user_pref("breakpad.reportURL", "");
 user_pref("browser.tabs.crashReporting.sendReport", false);
-user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 
 /** DETECTION ***/
 user_pref("captivedetect.canonicalURL", "");
@@ -180,7 +181,6 @@ user_pref("browser.profiles.enabled", true);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.compactmode.show", true);
 user_pref("browser.privateWindowSeparation.enabled", false); // WINDOWS
-user_pref("browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled", true);
 
 /** COOKIE BANNER HANDLING ***/
 user_pref("cookiebanners.service.mode", 1);
@@ -220,7 +220,7 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
 // visit https://github.com/TeamDominant/Betterfox/wiki/Recommended-Overrides
-// DO NOT REMOVE OVERRIDES BELOW THIS LINE:
+// Do not remove the following lines until you know what you are doing:
 user_pref("identity.fxaccounts.enabled", true);
 user_pref("browser.tabs.firefox-view", false);
 user_pref("browser.tabs.tabMinWidth", 45);
@@ -235,7 +235,7 @@ user_pref("full-screen-api.transition.timeout", 0);
 // for more info
 user_pref("browser.newtabpage.activity-stream.showWeather", false);
 user_pref("browser.newtabpage.activity-stream.system.showWeather", false);
-//user_pref("signon.rememberSignons", true); // UNCOMMENT IF YOU ARE NOT USING BITWARDEN OR ETC
+//user_pref("signon.rememberSignons", true); // Uncomment if not using Bitwarden
 user_pref("ui.key.menuAccessKeyFocuses", false);
 user_pref("browser.tabs.warnOnClose", true);
 user_pref("browser.tabs.hoverPreview.enabled", false);
@@ -249,6 +249,7 @@ user_pref("browser.tabs.hoverPreview.enabled", false);
 ****************************************************************************/
 // visit https://github.com/yokoffing/Betterfox/blob/main/Smoothfox.js
 // Enter your scrolling overrides below this line:
+
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
