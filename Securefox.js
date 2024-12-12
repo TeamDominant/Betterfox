@@ -1301,15 +1301,16 @@ user_pref("permissions.default.geo", 2);
 //user_pref("extensions.update.enabled", false);
 
 // PREF: disable search engine updates (e.g. OpenSearch)
+// Prevent Firefox from adding back search engines after you removed them.
 // [NOTE] This does not affect Mozilla's built-in or Web Extension search engines.
-//user_pref("browser.search.update", false);
+user_pref("browser.search.update", false);
 
 // PREF: remove special permissions for certain mozilla domains [FF35+]
 // default = resource://app/defaults/permissions
 user_pref("permissions.manager.defaultsUrl", "");
 
 // PREF: remove webchannel whitelist
-user_pref("webchannel.allowObject.urlWhitelist", "");
+//user_pref("webchannel.allowObject.urlWhitelist", ""); // [DEFAULT FF132+]
 
 /******************************************************************************
  * SECTION: TELEMETRY                                                   *
@@ -1376,7 +1377,7 @@ user_pref("browser.tabs.crashReporting.sendReport", false);
 
 // PREF: enforce no submission of backlogged crash reports
 // [SETTING] Privacy & Security>Firefox Data Collection & Use>Allow Firefox to send backlogged crash reports
-user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
+//user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false); // [DEFAULT FF132+]
 
 /******************************************************************************
  * SECTION: DETECTION                                                        *
