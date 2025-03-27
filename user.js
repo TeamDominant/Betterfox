@@ -10,7 +10,7 @@
 /****************************************************************************
  * Betterfox. Created by yokoffing and modified by prettyleaf               *
  * "Ad meliora"                                                             *
- * version: 133                                                             *
+ * version: 135                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
 ****************************************************************************/
 
@@ -21,12 +21,11 @@
 user_pref("content.notify.interval", 100000);
 
 /** GFX ***/
-user_pref("gfx.canvas.accelerated.cache-items", 4096);
 user_pref("gfx.canvas.accelerated.cache-size", 512);
 user_pref("gfx.content.skia-font-cache-size", 20);
 
 /** DISK CACHE ***/
-user_pref("browser.cache.disk.enable", true);
+user_pref("browser.cache.disk.enable", false);
 
 /** MEDIA CACHE ***/
 user_pref("media.memory_cache_max_size", 65536);
@@ -53,7 +52,6 @@ user_pref("network.predictor.enable-prefetch", false);
 
 /** EXPERIMENTAL ***/
 user_pref("layout.css.grid-template-masonry-value.enabled", true);
-user_pref("dom.enable_web_task_scheduling", true);
 
 /****************************************************************************
  * SECTION: SECUREFOX                                                       *
@@ -233,8 +231,6 @@ user_pref("full-screen-api.transition.timeout", 0);
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // for more info
-user_pref("browser.newtabpage.activity-stream.showWeather", false);
-user_pref("browser.newtabpage.activity-stream.system.showWeather", false);
 //user_pref("signon.rememberSignons", true); // Uncomment if not using Bitwarden
 user_pref("ui.key.menuAccessKeyFocuses", false);
 user_pref("browser.tabs.warnOnClose", true);
