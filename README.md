@@ -7,11 +7,7 @@
 > This repo is **Betterfox** fork. \
 > Check out the original [repository](https://github.com/yokoffing/Betterfox/).
 
-[about:config](https://support.mozilla.org/en-US/kb/about-config-editor-firefox) tweaks to enhance [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). 
-
-31% [faster](https://medium.com/@mihirgrand/comparing-popular-firefox-forks-6fa83fdfdaad#:~:text=31%25%20more%20than%20vanilla%20Firefox) than regular Firefox :rocket:
-
-Now with support for ESR [128](https://github.com/yokoffing/Betterfox/tree/esr128) :new: 
+[about:config](https://support.mozilla.org/en-US/kb/about-config-editor-firefox) tweaks to enhance [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/).
 
 ## Required reading
 
