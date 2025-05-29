@@ -28,7 +28,7 @@
 ### Extensions
 
 1) Get an **ad blocker** like [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) with our [recommended filters](https://github.com/yokoffing/filterlists#guidelines).
-2) Go to `C:\Program Files\Mozilla Firefox\distribution` and put [policies.json](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/zen/distribution/policies.json) there. In case you're using Firefox download it [here](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/policies.json).
+2) Go to `C:\Program Files\Zen Browser\distribution` and put [policies.json](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/zen/distribution/policies.json) there. In case you're using Firefox download it [here](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/policies.json) and place in `C:\Program Files\Mozilla Firefoxr\distribution`.
 3) Restart again and then check `about:policies`, if you see tweaks there, then you're good to go.
     * You probably don't have distribution, so create it.
     * If your Firefox folder isn't in that path, so find it yourself and do the same steps.
