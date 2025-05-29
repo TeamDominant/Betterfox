@@ -10,30 +10,32 @@
 
 ## Required reading
 
-*If you don't have it already: [Get Zen](https://zen-browser.app/download/)*
+*If you don't have it already: [Get Zen](https://zen-browser.app/download/)*  
 *However, if you are in doubt about Zen, [Get Firefox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release)*
 
 0) Create a [backup profile](https://github.com/yokoffing/Betterfox/wiki/Backup).
 
-1) Download the user.js file [here](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/zen/user.js) (Right click > `Save Link As…`). In case you're using Firefox download it [here](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/user.js).
-2) Review [Common Overrides](https://github.com/yokoffing/Betterfox/wiki/Common-Overrides) and make any necessary changes.
+1) Download the user.js file [here](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/zen/user.js) (Right click > `Save Link As…`).  
+   In case you're using Firefox download it [here](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/user.js).
+3) Review [Common Overrides](https://github.com/yokoffing/Betterfox/wiki/Common-Overrides) and make any necessary changes.
    * See also [Optional Hardening](https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening) for other recommendations.
    * Do not change [Recommended Overrides](https://github.com/TeamDominant/wiki/Recommended-Overrides) as there is no need to do so, create an [Issue](https://github.com/TeamDominant/Betterfox/issues/) if I'm wrong.
-3) Open Firefox. In the URL bar, type `about:profiles` and press **Enter**.
-4) For the profile you want to use (or use default), click **Open Folder** in the **Root Directory** section.
-5) Close Firefox.
+4) Open Firefox. In the URL bar, type `about:profiles` and press **Enter**.
+5) For the profile you want to use (or use default), click **Open Folder** in the **Root Directory** section.
+6) Close Firefox.
 5) Move the `user.js` file into the folder.
 7) Open Firefox and make changes in settings if you need.
 
 ### Extensions
 
 1) Get an **ad blocker** like [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) with our [recommended filters](https://github.com/yokoffing/filterlists#guidelines).
-2) Go to `C:\Program Files\Zen Browser\distribution` and put [policies.json](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/zen/distribution/policies.json) there. In case you're using Firefox download it [here](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/policies.json) and place in `C:\Program Files\Mozilla Firefoxr\distribution`.
+2) Go to `C:\Program Files\Zen Browser\distribution` and put [policies.json](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/zen/distribution/policies.json) there.  
+   In case you're using Firefox download it [here](https://raw.githubusercontent.com/TeamDominant/Betterfox/main/policies.json) and place in `C:\Program Files\Mozilla Firefoxr\distribution`.
 3) Restart again and then check `about:policies`, if you see tweaks there, then you're good to go.
     * You probably don't have distribution, so create it.
     * If your Firefox folder isn't in that path, so find it yourself and do the same steps.
-
-2) *(optional)* Enable **DNS-level protection** with [NextDNS](https://nextdns.io/?from=xujj63g5). <sup><i>Use the link and support this page!</i></sup>
+4) *(optional)* If you prefer using Bitwarden instead of Mozilla's passkeys save feature, there is Bitwarden pre-installed in `policies.json`, just configure it. If not, then turn the feature inside the Zen's browser / Uncomment the override in `user.js`.
+5) *(optional)* Enable **DNS-level protection** with [NextDNS](https://nextdns.io/?from=xujj63g5). <sup><i>Use the link and support this page!</i></sup>
     * Check out our configuration [guide](https://github.com/yokoffing/NextDNS-Config) for the best experience.
     * See how to [quickly enable](https://support.mozilla.org/en-US/kb/dns-over-https) **secure DNS** in Firefox.
 
