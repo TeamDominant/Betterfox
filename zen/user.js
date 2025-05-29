@@ -10,7 +10,7 @@
 /****************************************************************************
  * BetterZen                                                                *
  * "Ex nihilo nihil fit"                                                    *
- * version: 137                                                             *
+ * version: 138                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
 ****************************************************************************/
 
@@ -18,7 +18,6 @@
  * SECTION: FASTFOX                                                         *
 ****************************************************************************/
 /** GFX ***/
-user_pref("gfx.canvas.accelerated.cache-items", 8192); // DEFAULT FF135+
 user_pref("gfx.canvas.accelerated.cache-size", 512);
 
 /** DISK CACHE ***/
@@ -105,14 +104,23 @@ user_pref("zen.view.experimental-rounded-view", false);
 // Currently bugged if you click to view what's blocked
 //user_pref("zen.urlbar.show-protections-icon", true);
 
+// PREF: Disable the Picture in picture pop-out when changing tabs
+//user_pref("media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled", false);
+
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
+// visit https://github.com/TeamDominant/Betterfox/wiki/Recommended-Overrides
+// Do not remove the following lines until you know what you are doing:
+user_pref("zen.theme.gradient.show-custom-colors", true);
+user_pref("zen.theme.accent-color", "#989898");
+user_pref("zen.urlbar.replace-newtab", false);
+user_pref("browser.tabs.tabMinWidth", 45);
+user_pref("browser.uidensity", 1);
+user_pref("layout.frame_rate", -1);
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
-
-
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
 ****************************************************************************/
