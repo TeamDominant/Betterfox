@@ -107,6 +107,9 @@ user_pref("zen.view.experimental-rounded-view", false);
 // PREF: Disable the Picture in picture pop-out when changing tabs
 //user_pref("media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled", false);
 
+// PREF: Disable the Picture in picture pop-out when changing tabs
+//user_pref("media.videocontrols.picture-in-picture.enable-when-switching-tabs.enabled", false);
+
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
