@@ -117,7 +117,7 @@ user_pref("zen.view.experimental-rounded-view", false);
 // Do not remove the following lines until you know what you are doing:
 user_pref("zen.theme.gradient.show-custom-colors", true);
 user_pref("zen.theme.accent-color", "#989898");
-//user_pref("zen.urlbar.replace-newtab", false); // revert blank-newtab page to Mozilla's original newtab page
+user_pref("zen.urlbar.replace-newtab", false);
 user_pref("browser.tabs.tabMinWidth", 45);
 user_pref("browser.uidensity", 1);
 user_pref("layout.frame_rate", -1);
