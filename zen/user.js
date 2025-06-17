@@ -10,7 +10,7 @@
 /****************************************************************************
  * BetterZen                                                                *
  * "Ex nihilo nihil fit"                                                    *
- * version: 138                                                             *
+ * version: 140                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
 ****************************************************************************/
 
@@ -83,7 +83,7 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.newtabpage.activity-stream.default.sites", "");
 
 /** URL BAR ***/
-user_pref("dom.text_fragments.create_text_fragment.enabled", true);
+user_pref("dom.text_fragments.create_text_fragment.enabled", true); // comment if experiencing page crashes
 
 /****************************************************************************
  * START: ZEN-SPECIFIC OVERRIDES                                            *
