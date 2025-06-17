@@ -90,10 +90,6 @@ user_pref("dom.text_fragments.create_text_fragment.enabled", true);
 ****************************************************************************/
 // Remove the slashes to enable the prefs
 
-// PREF: reduce CPU and GPU use until bug is fixed
-// [1] https://github.com/zen-browser/desktop/issues/6302
-user_pref("zen.view.experimental-rounded-view", false);
-
 // PREF: re-enable Windows efficiency mode
 //user_pref("dom.ipc.processPriorityManager.backgroundUsesEcoQoS", true);
 
@@ -117,10 +113,10 @@ user_pref("zen.view.experimental-rounded-view", false);
 // Do not remove the following lines until you know what you are doing:
 user_pref("zen.theme.gradient.show-custom-colors", true);
 user_pref("zen.theme.accent-color", "#989898");
-user_pref("zen.urlbar.replace-newtab", false);
+//user_pref("zen.urlbar.replace-newtab", false); // revert blank-newtab page to Mozilla's original newtab page. if true, searchbar wont be in focus on newtab page
 user_pref("browser.tabs.tabMinWidth", 45);
 user_pref("browser.uidensity", 1);
-user_pref("layout.frame_rate", -1);
+user_pref("layout.frame_rate", -1); // probably not needed
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
