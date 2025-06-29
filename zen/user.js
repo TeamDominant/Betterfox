@@ -114,6 +114,7 @@ user_pref("dom.text_fragments.create_text_fragment.enabled", true); // comment i
 user_pref("zen.theme.gradient.show-custom-colors", true);
 user_pref("zen.theme.accent-color", "#989898");
 //user_pref("zen.urlbar.replace-newtab", false); // revert blank-newtab page to Mozilla's original newtab page. if true, searchbar wont be in focus on newtab page
+//user_pref("browser.startup.homepage", "https://homepage.teamdominant.ru/"); // setting a custom homepage
 user_pref("browser.tabs.tabMinWidth", 45);
 user_pref("browser.uidensity", 1);
 user_pref("layout.frame_rate", -1); // probably not needed
