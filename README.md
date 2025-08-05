@@ -82,7 +82,7 @@ If you like the project, leave a :star: (top right) and become a [stargazer](htt
 <noscript><a href="https://liberapay.com/yokoffing/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 
 ## Credit
-* Modified by [prettyleaf](https://github.com/prettyleaf) for everyday usage and perfomance. [Buy me a coffee.](https://www.donationalerts.com/r/pr3ttyleaf)
+* Modified by [prettyleaf](https://github.com/prettyleaf) for everyday usage and perfomance. [Buy me a coffee.](https://t.me/tribute/app?startapp=dsRK)
 * Betterfox mirrors the ongoing work provided by [arkenfox](https://github.com/arkenfox/user.js). Additionally, this repository includes content reproduced or adapted from other sources. Credit for overlapping material goes to the original authors.
 * Appreciation goes to the [Firefox](https://www.mozilla.org/en-US/firefox/new/) team and developers working on [Bugzilla](https://bugzilla.mozilla.org/home), fighting for the open web.
 * Thanks to [Denperidge](https://github.com/Denperidge) for adding [`install.py`](https://github.com/yokoffing/Betterfox/blob/main/install.py) for advanced users in v.131.
