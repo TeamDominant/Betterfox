@@ -139,7 +139,7 @@ user_pref("browser.ml.chat.enabled", false);
 //user_pref("cookiebanners.service.enableGlobalRules.subFrames", true); // DEFAULT [FF121+]
 
 /****************************************************************************
- * SECTION: TRANSLATIONS                                                   *
+ * SECTION: TRANSLATIONS                                                    *
 ****************************************************************************/
 
 // PREF: Firefox Translations [FF118+]
@@ -204,7 +204,7 @@ user_pref("browser.urlbar.suggest.engines", false);
 //user_pref("browser.urlbar.suggest.weather", true); // DEFAULT [FF108]
     //user_pref("browser.urlbar.weather.ignoreVPN", false); // DEFAULT
 //user_pref("browser.urlbar.suggest.calculator", true); // [DEFAULT FF137+]
-user_pref("browser.urlbar.unitConversion.enabled", true);
+//user_pref("browser.urlbar.unitConversion.enabled", true); [DEFAULT FF141+]
 
 // PREF: disable dropdown suggestions with empty query
 //user_pref("browser.urlbar.suggest.topsites", false);
@@ -216,10 +216,11 @@ user_pref("browser.urlbar.trending.featureGate", false);
 
 // PREF: disable urlbar suggestions
 //user_pref("browser.urlbar.addons.featureGate", false); // [FF115+]
+//user_pref("browser.urlbar.amp.featureGate", false); // [FF141+] adMarketplace
 //user_pref("browser.urlbar.fakespot.featureGate", false); // [FF130+] [DEFAULT: false]
 //user_pref("browser.urlbar.mdn.featureGate", false); // [FF117+] [HIDDEN PREF]
-//user_pref("browser.urlbar.pocket.featureGate", false); // [FF116+] [DEFAULT: false]
 //user_pref("browser.urlbar.weather.featureGate", false); // [FF108+] [DEFAULT: false]
+//user_pref("browser.urlbar.wikipedia.featureGate", false); // [FF141+]
 //user_pref("browser.urlbar.clipboard.featureGate", false); // [FF118+] [DEFAULT: true FF125+]
 //user_pref("browser.urlbar.yelp.featureGate", false); // [FF124+] [DEFAULT: false]
 
@@ -301,11 +302,12 @@ user_pref("browser.urlbar.trending.featureGate", false);
 //user_pref("browser.newtabpage.activity-stream.discoverystream.enabled", false);
 //user_pref("browser.newtabpage.activity-stream.showSearch", true); // NTP Web Search [DEFAULT]
 //user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); // Shortcuts
-      user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // Shortcuts > Sponsored shortcuts [FF83+]
+      user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // Sponsored shortcuts [FF83+]
 //user_pref("browser.newtabpage.activity-stream.showWeather", false); // Weather [FF130+]
     //user_pref("browser.newtabpage.activity-stream.system.showWeather", false); // hides Weather as an UI option
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // Recommended by Pocket
-      user_pref("browser.newtabpage.activity-stream.showSponsored", false); // Sponsored Stories [FF58+]  
+user_pref("browser.newtabpage.activity-stream.showSponsored", false); // Sponsored stories [FF58+]
+user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes", false); // [FF140+] Support Firefox
 //user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false); // Recent Activity [DEFAULT]
       //user_pref("browser.newtabpage.activity-stream.section.highlights.includeBookmarks", false);
       //user_pref("browser.newtabpage.activity-stream.section.highlights.includeDownloads", false);
