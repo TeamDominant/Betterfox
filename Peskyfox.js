@@ -3,7 +3,7 @@
  * Peskyfox                                                                 *
  * "Aquila non capit muscas"                                                *
  * priority: remove annoyances                                              *
- * version: 140                                                             *
+ * version: 142                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
  * credit: Some prefs are reproduced and adapted from the arkenfox project  *
  * credit urL: https://github.com/arkenfox/user.js                          *
@@ -28,14 +28,6 @@ user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 // [NOTE] This pref has no effect when Health Reports are disabled.
 // [SETTING] Privacy & Security>Firefox Data Collection & Use>Allow Firefox to make personalized extension recommendations
 user_pref("browser.discovery.enabled", false);
-
-// PREF: disable Fakespot integration [FF116+]
-// [1] https://bugzilla.mozilla.org/show_bug.cgi?id=1840156#c0
-// [2] https://github.com/arkenfox/user.js/issues/1730
-// [3] https://www.fakespot.com/
-// [4] https://www.ghacks.net/2023/10/12/firefox-will-soon-tell-you-if-product-reviews-are-reliable/
-//user_pref("browser.shopping.experience2023.enabled", false); // DEFAULT
-//user_pref("browser.shopping.experience2023.ads.exposure", false); // DEFAULT [FF121+]
 
 // PREF: disable Firefox from asking to set as the default browser
 // [1] https://github.com/yokoffing/Betterfox/issues/166
@@ -105,7 +97,24 @@ user_pref("browser.privateWindowSeparation.enabled", false);
 //user_pref("browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled", true); // [DEFAULT FF132+]
 
 /****************************************************************************
- * SECTION: COOKIE BANNER HANDLING                                         *
+ * SECTION: AI                                                              *
+****************************************************************************/
+// PREF: AI master switch
+// [1] https://github.com/yokoffing/Betterfox/issues/416
+user_pref("browser.ml.enable", false);
+
+// PREF: AI chat
+user_pref("browser.ml.chat.enabled", false);
+
+// PREF: link previews
+//user_pref("browser.ml.linkPreview.enabled", false);
+
+// PREF: AI-enhanced tab groups
+// [1] https://support.mozilla.org/kb/how-use-ai-enhanced-tab-groups
+//user_pref("browser.tabs.groups.smart.enabled", false);
+
+/****************************************************************************
+ * SECTION: COOKIE BANNER HANDLING                                          *
 ****************************************************************************/
 
 // PREF: Cookie Banner handling
