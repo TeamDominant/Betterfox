@@ -222,7 +222,23 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
-
+user_pref("identity.fxaccounts.enabled", true);
+user_pref("browser.tabs.firefox-view", false);
+user_pref("browser.tabs.tabMinWidth", 45);
+user_pref("browser.uidensity", 1);
+user_pref("nglayout.enable_drag_images", false);
+user_pref("reader.parse-on-load.enabled", false);
+user_pref("layout.frame_rate", -1);
+user_pref("full-screen-api.transition.timeout", 0);
+// Enter your personal overrides below this line:
+// visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
+// visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
+// for more info
+//user_pref("signon.rememberSignons", true); // Uncomment if not using Bitwarden
+user_pref("ui.key.menuAccessKeyFocuses", false);
+user_pref("browser.tabs.warnOnClose", true);
+user_pref("browser.tabs.hoverPreview.enabled", false);
+//user_pref("browser.urlbar.suggest.calculator", true); // optional
 
 
 /****************************************************************************
@@ -236,3 +252,4 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
+
