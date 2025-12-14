@@ -38,7 +38,7 @@
                 "Amazon.com",
                 "eBay"
             ],
-            "Default": "DuckDuckGo",
+            "Default": "Google",
             "Add": [
                 {
                     "Name": "DuckDuckGo Lite",
